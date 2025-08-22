@@ -1,4 +1,3 @@
-
 # Local LLM Platform Comparison for Research Clusters: LMStudio vs. Ollama vs. LocalAI
 
 ## 1. Introduction and Decision Rationale
@@ -85,3 +84,11 @@ This decision is rooted in the specific needs of a shared, multi-user research e
 3.  **Balanced and Stable Feature Set:** LMStudio provides the core features needed for most LLM research (chat, completions, model configuration) in a stable, polished package. While LocalAI offers a more extensive, multi-modal feature set, it comes at the cost of significant complexity and potential instability, making it less suitable for a general-purpose, centrally managed service.
 
 While Ollama's CLI and Docker support are excellent for individual developers and automated workflows, and LocalAI's multi-modal capabilities are powerful for specialized research, **LMStudio's focus on a user-friendly, high-performance, and integrated solution makes it the ideal choice for providing a robust and easy-to-use centralized LLM service for our research cluster.**
+
+## 5. References
+
+- [LM Studio Official Website](https://lmstudio.ai/)
+- [Ollama Official Website](https://ollama.com/)
+- [LocalAI Official Website](https://localai.io/)
+- [Open WebUI for Ollama](https://github.com/open-webui/open-webui)
+- [LiteLLM (Proxy for OpenAI Compatibility)](https://github.com/BerriAI/litellm)

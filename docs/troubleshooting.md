@@ -28,3 +28,9 @@ By default, macOS limits the amount of RAM available to the GPU. You can increas
     Save the file and reboot. The new limit will be applied automatically.
 
     **Note:** Do not allocate all your system's memory to the GPU. Leave a reasonable amount for the operating system to function correctly.
+
+## References
+
+- [LM Studio Bug Tracker - MLX Quantization Issue](https://github.com/lmstudio-ai/lmstudio-bug-tracker/issues/839)
+- [Adjusting VRAM/RAM split on Apple Silicon (GitHub Discussion)](https://github.com/ggml-org/llama.cpp/discussions/2182)
+- [Reddit Discussion on Increasing VRAM Allocation](https://www.reddit.com/r/LocalLLaMA/comments/186phti/m1m2m3_increase_vram_allocation_with_sudo_sysctl/)

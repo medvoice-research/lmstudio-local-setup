@@ -86,3 +86,9 @@ For a model of this size (360GB), you **must** ensure that macOS allocates enoug
 -   **Make it persistent:** To ensure this setting survives a reboot, add it to `/etc/sysctl.conf`. See the main `troubleshooting.md` for more details.
 
 This approach gives you a direct way to work with the most advanced models, ensuring you are always using the latest MLX capabilities.
+
+## References
+
+- [Apple's MLX Examples on GitHub](https://github.com/ml-explore/mlx-examples)
+- [Hugging Face: GreenBitAI/DeepSeek-R1-671B-layer-mix-bpw-4.0-mlx](https://huggingface.co/GreenBitAI/DeepSeek-R1-671B-layer-mix-bpw-4.0-mlx)
+- [Adjusting VRAM/RAM split on Apple Silicon (GitHub Discussion)](https://github.com/ggml-org/llama.cpp/discussions/2182)
