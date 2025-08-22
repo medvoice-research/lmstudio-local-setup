@@ -126,6 +126,10 @@ response = client.chat.completions.create(
 print(response.choices[0].message.content)
 ```
 
+## Troubleshooting
+
+See [docs/troubleshooting.md](docs/troubleshooting.md) for information on increasing VRAM on Apple Silicon.
+
 ## License
 
 See [LICENSE](LICENSE) file for details.
